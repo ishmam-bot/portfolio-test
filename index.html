@@ -4,19 +4,184 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web dev portfolio</title>
-</head>
-<body>
 
-    <header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Styles/portfolio.css">
+
+</head>
+<body class="cal-sans-regular">
+
+    <header class="header secondary-bg">
+
+        <nav>
+          <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
+          <ul>
+            <li><a class="font-color" href="">Portfolio</a></li>
+            <li><a class="font-color" href="">Blog</a></li>
+            <li><a href=""><button class="btn">Hire me</button></a></li>
+          </ul>  
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="banner-greetings font-color">Hi,        I am    </h4>
+                <h1 class="banner-title">Muhammad Ishmam</h1>
+                <p class="banner-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam numquam, ipsam tenetur fugit sunt deleniti molestiae amet ratione voluptatem nesciunt, animi saepe!
+                </p>
+
+                <button class="btn"> Download CV</button>
+                <button class="btn">Download Contact</button>
+
+            </div>
+            <img class="banner-DP" src="images/hardy.png" alt="">
+        </div>
 
     </header>
 
     <main>
 
+        <section class="about secondary-bg">
+
+        <h3 class="section-title">About Me</h3>
+        <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tenetur soluta totam ipsam rerum asperiores odit impedit cumque nihil porro earum ratione, reprehenderit fugit natus quaerat corporis id sapiente explicabo!</p>
+
+        <div class="about-items">
+            <!-- .about-item*4>p.item-title+p.item-description   -->
+            <div class="about-item">
+                <p class="item-title">name</p>
+                <p class="item-description">Muhammad Ishmam</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">Email</p>
+                <p class="item-description">ishmam10@gmail,com</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">Date Of Birth</p>
+                <p class="item-description">4th December 2004</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">From</p>
+                <p class="item-description">Mirsharai, Chattogram</p>
+            </div>
+        </div>
+
+        </section>
+
+        <!-- What I do section start -->
+         <section class="skills">
+            <h3 class="section-title text-center">What I do</h3>
+            <p class="section-description text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus deserunt alias nihil ratione suscipit exercitationem explicabo commodi officia harum</p>
+
+            <div class="skills-container">
+
+                <!-- .skill*4>img+h4.skill-title+p.skill-description -->
+                 <div class="skills">
+                    <img src="images/icons/js.png" alt="">
+                    <h4 class="skill-title">Vanilla Javascript</h4>
+                    <p class="skill-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat incidunt vero perspiciatis! Enim, similique</p>
+                 </div>
+                 <div class="skills">
+                    <img src="images/icons/react.png" alt="">
+                    <h4 class="skill-title">React</h4
+                    <p class="skill-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat incidunt vero perspiciatis! Enim, similique</p>
+                 </div>
+                 <div class="skills">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <h4 class="skill-title">Node.js</h4>
+                    <p class="skill-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat incidunt vero perspiciatis! Enim, similique</p>
+                 </div>
+                 <div class="skills">
+                    <img src="images/icons/mongo.png" alt="">
+                    <h4 class="skill-title">Mongo DB</h4>
+                    <p class="skill-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat incidunt vero perspiciatis! Enim, similique</p>
+                 </div>
+
+            </div>
+
+         </section>
+
+         <section class="resume">
+            <h3 class="section-title">A summary of My Resume</h3>
+            <div class="resume-container">
+
+                <!-- .resuem-column*2>h3.resume-column-title+.experience*3>h4.experience-title+h5.experience-sub-title+.experience-description -->
+                 <div class="resume-column">
+                    <h3 class="resume-column-title">My Education</h3>
+                    <div class="experience">
+                        <h4 class="experience-title">Degree Name</h4>
+                        <h5 class="experience-sub-title">Versity Name</h5>
+                        <div class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error obcaecati nesciunt ullam, optio unde ea exerci</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Degree Name</h4>
+                        <h5 class="experience-sub-title">Versity Name</h5>
+                        <div class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error obcaecati nesciunt ullam, optio unde ea exerci</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Degree Name</h4>
+                        <h5 class="experience-sub-title">Versity Name</h5>
+                        <div class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error obcaecati nesciunt ullam, optio unde ea exerci</div>
+                    </div>
+                 </div>
+                 <div class="resume-column">
+                    <h3 class="resume-column-title">My Experience</h3>
+                    <div class="experience">
+                        <h4 class="experience-title">Job title</h4>
+                        <h5 class="experience-sub-title">Work Place</h5>
+                        <div class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error obcaecati nesciunt ullam, optio unde ea exerci</div>
+                    
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Job title</h4>
+                        <h5 class="experience-sub-title">Work Place</h5>
+                        <div class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error obcaecati nesciunt ullam, optio unde ea exerci</div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Job title</h4>
+                        <h5 class="experience-sub-title">Work Place</h5>
+                        <div class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error obcaecati nesciunt ullam, optio unde ea exerci</div>
+                        </div>
+                 </div>
+            </div>
+            
+         </section>
+
     </main>
 
-    <footer>
-        
+    <footer class="secondary-bg">
+        <div class="footer-column">
+
+            <h3 class="section-title">Lets Connect</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam officiis voluptatem consectetur illum et, fugit, recusandae sequi</p>
+
+            <div>
+                <a href=""><img src="images/icons/facebook.png" alt=""></a>     
+                <a href=""><img src="images/icons/insta.png" alt=""></a>     
+                <a href=""><img src="images/icons/twitter.png" alt=""></a>     
+            </div>
+
+        </div>
+
+        <div class="footer-column">
+            <h3 class="section-title">
+                Let's Inbox Me
+            </h3>
+
+            <form action="">
+
+                <input type="Name" name="" id="" placeholder="Your Name">
+                <input type="email" name="" id="" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="20"></textarea>
+                <input class="btn" type="submit" value="Submit">
+            </form>
+
+
+        </div>
     </footer>
     
 </body>
